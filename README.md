@@ -25,7 +25,7 @@ The program reads input data from a file named "personin.txt". The file format s
 
 This strategy uses a queue to schedule meetings in a fair, first-come-first-served manner. Students are scheduled based on their arrival time, and meetings are conducted consecutively without prioritizing early arrivals.
 
-3.  The Unfair Way (readstack())
+2.  The Unfair Way (readstack())
 
 This strategy uses a stack to schedule meetings in an unfair manner. Students who arrive earlier are given priority, and their meetings are scheduled before those who arrive later.
 
