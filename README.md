@@ -1,13 +1,16 @@
 # queue-implementation
 
 **Overview**
+
 This C++ program simulates a scheduling system for meetings based on arrival times and meeting durations of students. The program reads input data from a file named "personin.txt" and implements two different scheduling strategies: "The unfair way" using a stack and "The fair way" using a queue. The unfair way prioritizes students who arrive earlier, while the fair way schedules meetings in a first-come-first-served manner.
 
 **Classes**
+
 Student
 This class represents a student with attributes such as name, arrival time, and meeting duration.
 
 **Attributes:**
+
 name: a string representing the student's name.
 arrtime: an integer representing the arrival time of the student.
 meetduration: an integer representing the requested meeting duration.
