@@ -6,8 +6,7 @@ This C++ program simulates a scheduling system for meetings based on arrival tim
 
 **Classes**
 
-Student
-This class represents a student with attributes such as name, arrival time, and meeting duration.
+Student: This class represents a student with attributes such as name, arrival time, and meeting duration.
 
 **Attributes:**
 
@@ -23,9 +22,10 @@ The program reads input data from a file named "personin.txt". The file format s
 **Scheduling Strategies**
 
 1.  The Fair Way (readqueue())
+
 This strategy uses a queue to schedule meetings in a fair, first-come-first-served manner. Students are scheduled based on their arrival time, and meetings are conducted consecutively without prioritizing early arrivals.
 
-2.  The Unfair Way (readstack())
+3.  The Unfair Way (readstack())
 
 This strategy uses a stack to schedule meetings in an unfair manner. Students who arrive earlier are given priority, and their meetings are scheduled before those who arrive later.
 
